@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         int iResult;
         iResult = Integer.parseInt(editTxt01.getText().toString()) + Integer.parseInt(editTxt02.getText().toString());
         txtresult.setText(Integer.toString(iResult));
+
     }
 
     public void onSubClick(View view){
